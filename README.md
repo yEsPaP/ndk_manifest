@@ -13,4 +13,4 @@ set python2 to default:
 
 build
 
-`python ndk/checkbuild.py`
+`python ndk/checkbuild.py --no-build-tests`

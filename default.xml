@@ -6,7 +6,7 @@
   <default revision="ndk-release-r17"
            remote="aosp"
            sync-j="4" />
-  <project path="bionic" name="platform/bionic" groups="presubmit" revision="ndk-release-r20" />
+  <project path="bionic" name="platform/bionic" groups="presubmit" />
   <project path="development" name="platform/development" groups="presubmit" />
   <!-- For lit.py, needed by the libc++ tests. -->
   <project path="external/libcxx" name="platform/external/libcxx"  />

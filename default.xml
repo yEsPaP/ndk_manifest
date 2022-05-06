@@ -6,7 +6,7 @@
   <default revision="ndk-release-r17"
            remote="aosp"
            sync-j="4" />
-  <project path="bionic" name="platform/bionic" groups="presubmit" />
+  <project path="bionic" name="platform/bionic" groups="presubmit" revision="ndk-release-r20" />
   <project path="development" name="platform/development" groups="presubmit" />
   <!-- For lit.py, needed by the libc++ tests. -->
   <project path="external/libcxx" name="platform/external/libcxx"  />
@@ -54,7 +54,7 @@
   <project path="toolchain/build" name="toolchain/build" groups="presubmit" />
   <project path="toolchain/cloog" name="toolchain/cloog" groups="presubmit" />
   <project path="toolchain/expat" name="toolchain/expat" groups="presubmit" />
-  <project path="toolchain/gcc" name="toolchain/gcc" groups="presubmit" />
+  <project path="toolchain/gcc" name="toolchain/gcc" groups="presubmit" revision="master" />
   <project path="toolchain/gdb" name="toolchain/gdb" groups="presubmit" />
   <project path="toolchain/gmp" name="toolchain/gmp" groups="presubmit" />
   <project path="toolchain/isl" name="toolchain/isl" groups="presubmit" />

@@ -1,10 +1,16 @@
-to init:
-
+# init
 `repo init -u https://github.com/yEsPaP/ndk_manifest -b master -m default.xml`
 
-sync:
+# sync:
 `repo sync -c -j$(nproc --all) --no-tags --no-clone-bundle --optimized-fetch --prune`
 
-build:
+# build:
+set python2 to default:
 
-W.I.P
+`rm /usr/bin/python`
+
+`ln -s /usr/bin/python2.7 /usr/bin/python`
+
+build
+
+`python ndk/checkbuild.py`

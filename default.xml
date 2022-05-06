@@ -9,8 +9,8 @@
   <project path="bionic" name="platform/bionic" groups="presubmit" revision="ndk-release-r20" />
   <project path="development" name="platform/development" groups="presubmit" />
   <!-- For lit.py, needed by the libc++ tests. -->
-  <project path="external/libcxx" name="platform/external/libcxx" revision="ndk-release-r20" />
-  <project path="external/libcxxabi" name="platform/external/libcxxabi" revision="ndk-release-r20" />
+  <project path="external/libcxx" name="platform/external/libcxx"  />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi"  />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm"  />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/googletest" name="platform/external/googletest" groups="presubmit" />

@@ -54,7 +54,7 @@
   <project path="toolchain/build" name="toolchain/build" groups="presubmit" />
   <project path="toolchain/cloog" name="toolchain/cloog" groups="presubmit" />
   <project path="toolchain/expat" name="toolchain/expat" groups="presubmit" />
-  <project path="toolchain/gcc" name="toolchain/gcc" groups="presubmit" revision="master" />
+  <project path="toolchain/gcc" name="toolchain/gcc" groups="presubmit" revision="ef58803bb1c5f70d34705a4698b9a97851d430b1" />
   <project path="toolchain/gdb" name="toolchain/gdb" groups="presubmit" />
   <project path="toolchain/gmp" name="toolchain/gmp" groups="presubmit" />
   <project path="toolchain/isl" name="toolchain/isl" groups="presubmit" />
